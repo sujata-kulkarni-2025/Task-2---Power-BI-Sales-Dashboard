@@ -1,6 +1,92 @@
 # Task-2---Power-BI-Sales-Dashboard
 Sales Dashboard
 
+🔧 Data Transformation Tasks
+1. Data Cleaning
+Removing or handling:
+
+Null/missing values
+
+Duplicate records
+
+Inconsistent formats (e.g., date, currency, decimals)
+
+Standardizing country names, product names, etc.
+
+2. Data Type Conversion
+Ensuring correct data types:
+
+Dates for time fields (e.g., invoice date)
+
+Text for categorical data (e.g., product names, regions)
+
+Numbers for financials (revenue, cost, profit)
+
+3. Column Splitting & Merging
+Splitting fields like Full Name into First Name and Last Name
+
+Combining fields like City + State into a Location field if needed
+
+4. Currency or Unit Conversion
+If data from multiple countries is present, currency normalization to a single currency (e.g., USD) may be required
+
+5. Calculated Columns & Measures
+Creating custom fields like:
+
+Profit = Revenue - Cost
+
+Profit Margin = Profit / Revenue
+
+Average Rating, Conversion Rate, etc.
+
+6. Data Aggregation & Grouping
+Summarizing:
+
+Revenue by month, region, product, campaign
+
+Profit by product category or channel
+
+Creating totals and subtotals for different dimensions
+
+7. Filtering & Row-Level Data Control
+Removing:
+
+Irrelevant time periods
+
+Products with zero sales
+
+Applying filters for a specific year (2022, 2023, 2024) as shown in the dashboard
+
+8. Hierarchies & Relationships
+Creating hierarchies:
+
+Date → Quarter → Month
+
+Region → Country
+
+Defining relationships between tables: e.g.,
+
+Product Table ↔ Sales Table
+
+Campaign Table ↔ Sales Table
+
+9. Data Enrichment
+Adding:
+
+Geographic metadata for country/region-based visualizations
+
+External data like population or market share for benchmarking
+
+10. Data Modeling
+Designing star or snowflake schema in Power BI
+
+Organizing tables into:
+
+Fact tables (Sales, Revenue)
+
+Dimension tables (Products, Customers, Regions)
+
+
 🔷 High-Level Business Metrics
 Metric	Value
 Revenue	$2M
